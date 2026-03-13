@@ -1,3 +1,8 @@
+<script>
+  // Importing the favicon from the lib folder
+  import logo from '$lib/assets/favicon.png';
+</script>
+
 <div class="relative flex-1 min-h-[400px] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#1e004a] to-[#4a00e0]">
   
   <!-- Subtle Grid Overlay -->
@@ -11,10 +16,8 @@
 
   <!-- Static Logo Overlay -->
   <div class="relative z-10 flex flex-col items-center gap-4 text-white drop-shadow-2xl">
-    <div class="w-16 h-16 md:w-20 md:h-20 border-2 border-white rounded-xl flex items-center justify-center">
-      <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
+     <div class="w-20 h-20 md:w-24 md:h-24 p-4 border-2 border-white/30 rounded-3xl flex items-center justify-center bg-white/10 backdrop-blur-md">
+      <img src={logo} alt="Logo" class="w-full h-full object-contain" />
     </div>
   </div>
 </div>
