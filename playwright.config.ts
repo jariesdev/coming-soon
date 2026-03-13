@@ -1,6 +1,8 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-	webServer: { command: 'npm run build && npm run preview', port: 4173 },
-	testMatch: '**/*.e2e.{ts,js}'
+	use: {
+		// Use the environment variable if it exists, otherwise localhost
+		baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:5173'
+	}
 });
