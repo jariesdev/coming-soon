@@ -11,7 +11,7 @@
   </div>
 
   <!-- Rotating Abstract Shape -->
-  <div class="absolute w-72 h-72 md:w-96 md:h-96 bg-white/5 backdrop-blur-xl border border-white/20 animate-[spin_25s_linear_infinite] rounded-[30%_70%_70%_30%/30%_30%_70%_70%] shadow-2xl">
+  <div class="rotating-logo absolute w-72 h-72 md:w-96 md:h-96 bg-white/5 backdrop-blur-xl border border-white/20 animate-[spin_25s_linear_infinite] rounded-[30%_70%_70%_30%/30%_30%_70%_70%] shadow-2xl">
   </div>
 
   <!-- Static Logo Overlay -->
