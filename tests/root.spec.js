@@ -39,7 +39,7 @@ test.describe('Root Page Layout', () => {
 
 		// Check margin between form and visual side (your specific requirement)
 		// The form wrapper has mb-10 on mobile
-		const formWrapper = page.locator('.w-full.mb-10');
+		const formWrapper = page.locator('.w-full.max-w-md.mb-10');
 		await expect(formWrapper).toHaveClass(/mb-10/);
 	});
 });
