@@ -29,7 +29,7 @@
   };
 </script>
 
-<div class="w-full max-w-md mb-10 md:mb-0 min-h-[110px]">
+<div class="w-full mb-10 md:mb-0 min-h-[110px]">
   {#if !submitted}
     <!-- Fixed: Added on:submit|preventDefault to handle logic without page reload -->
     <form onsubmit={handleSubmit} class="flex flex-col gap-3">
